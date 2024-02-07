@@ -1,11 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/steyl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>UI.desk</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <a id="backtop" href="#">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <!-- HEADER START -->
+    <header id="header">
+      <div class="container">
+        <!-- NAVBAR START -->
+        <nav class="header-nav">
+          <div class="header-nav__logo-box">
+            <a href="#">
+              <img
+                class="logo-box__img"
+                src="./image/header/UI.desk.svg"
+                alt="site logo"
+              />
+            </a>
+          </div>
+          <ul class="header-nav__list" id="nav__list">
+            <li class="header-nav__list__item">
+              <a href="#" class="list__item__link">Home</a>
+            </li>
+            <li class="header-nav__list__item">
+              <a href="#about" class="list__item__link">About</a>
+            </li>
+            <li class="header-nav__list__item">
+              <a href="#Contact" class="list__item__link">Contact</a>
+            </li>
+            <li class="header-nav__list__item">
+              <a href="#testimonials" class="list__item__link">Testimonials</a>
+            </li>
+            <li class="header-nav__list__item-btn">
+                <button class="header-nav__search-btn">
+                    <img src="./image/header/SEARCH.svg" alt="Qidruv">
+                </button>
+            </li>
+            <li class="header-nav__list__item-btn">
+                <button class="header-nav__cart-btn">
+                    <img src="./image/header/Cart Icon.svg" alt="Byurtmalar">
+                </button>
+            </li>
+            <li class="header-nav__list__item-btn">
+                <button id="header-nav__now-btn" class="reset-btn">
+                    Order Now
+                </button>
+            </li>
+          </ul>
+          <div class="header-nav__btns">
+                <button class="header-nav__search-btn responsive-btn">
+                    <img src="./image/header/SEARCH.svg" alt="Qidruv">
+                </button>
+                <button class="header-nav__cart-btn responsive-btn">
+                    <img src="./image/header/Cart Icon.svg" alt="Byurtmalar">
+                </button>
+                <button id="header-nav__now-btn" class="reset-btn  responsive-btn">
+                    Order Now
+                </button>
+                <button class="header-nav__btn" id="nav__btn__menu">
+                    <span class="nav__btn__liner"></span>
+                    <span class="nav__btn__liner"></span>
+                    <span class="nav__btn__liner"></span>
+                </button>
+          </div>
+        </nav>
+        <!-- NAVBAR END -->
+      </div>
+    </header>
+    <!-- HEADER END -->
+    <!-- MAIN START -->
+    <main>
+        <!-- MAIN START -->
+        <section id="hero">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero-wrapper__box">
+                        <h1 class="hero-wrapper__box__title">
+                            Just <span class="hero-wrapper__title__text" >Eat healthy</span> food to live a healthier life
+                        </h1>
+                        <P class="hero-wrapper__box__text">
+                            Enjoy a healthy life by eating healthy foods<br>that have extraordinary flavors that make<br>your life healthier for today and in the future
+                        </P>
+                        <button id="hero-wrapper__now-btn" class="reset-btn">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- MAIN END -->
+    </main>
+    <!-- MAIN END -->
+    <script src="./js/app.js"></script>
+  </body>
 </html>

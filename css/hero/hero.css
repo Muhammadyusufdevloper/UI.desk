@@ -1,0 +1,26 @@
+#hero{
+    padding-top: 100px;
+    padding-bottom: 260px;
+    background-color: white;
+}
+.hero-wrapper {
+}
+.hero-wrapper__box {
+    max-width: 596px;
+}
+.hero-wrapper__box__title {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 96px;
+}
+.hero-wrapper__title__text {
+    color: #5FB848;
+}
+.hero-wrapper__box__text {
+    margin-bottom: 50px;
+    font-size:24px;
+    line-height:34px;
+}
+.reset-btn {
+}
