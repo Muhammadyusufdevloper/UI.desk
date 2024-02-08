@@ -5,10 +5,10 @@
     z-index: 9999;
     padding: 20px 0 20px 0;
     width: 100%;
-    background-color:#FFF;
     transition:all 0.5s ease;
 }
 .show-header{
+    background-color: #FFF;
     box-shadow:0 0 15px gray;
 }
 .header-nav {
@@ -74,10 +74,6 @@
 }
 .header-nav__list__item-btn{
     display: none;
-}
-.header-nav__btn {
-}
-.nav__btn__liner {
 }
 @media (max-width:1050px){
     .header-nav__list{
